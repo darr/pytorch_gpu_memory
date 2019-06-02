@@ -48,8 +48,6 @@ bash gpu_run.sh
 output
 ```shell
 LINE:27, FUNC:<module>, FILE:gpu_test.py, TIME:2019-06-02 17:16:23.288399, CONTENT:
-/home/liuzy/.pytorch_gpu_memory_env/py3env/lib/python3.5/site-packages/torch/distributed/distributed_c10d.py:100: UserWarning: torch.distributed.reduce_op is deprecated, please use torch.distributed.ReduceOp instead
-  warnings.warn("torch.distributed.reduce_op is deprecated, please use "
 [tensor: 1 * Size:(100, 10) | Memory: 0.0038 M | <class 'torch.Tensor'>]
 [tensor: 1 * Size:(64, 1000) | Memory: 0.2441 M | <class 'torch.Tensor'>]
 [tensor: 1 * Size:(64, 10) | Memory: 0.0024 M | <class 'torch.Tensor'>]
