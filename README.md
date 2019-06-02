@@ -77,9 +77,10 @@ Free Memory:1179.625000 Mb
 Total Memory:11169.250000 Mb
 ```
 
+note: the size is different from nvidia-smi.
+
 this will run gpu_test.ipynb, just open the jupyter
 ```shell
 bash run.sh
 ```
-
 
