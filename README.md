@@ -34,11 +34,13 @@ for t in range(500):
 print(loss.item())
 gpu_memory_log()
 ```
+yes, just put the code gpu_memory_log() , where you want to see the gpu memory status
+so easy.
 
 ## how to run
 
 you can choose how to run.
-this will gpu_test.py
+this will run gpu_test.py
 ```shell
 bash gpu_run.sh
 ```
